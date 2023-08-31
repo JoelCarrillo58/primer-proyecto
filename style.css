@@ -1,14 +1,41 @@
 body{
-    color: darkgrey;
-    text-align: center;
+    color: darkgray; /*color del fondo de la pagina*/
+    margin: 0;      /*regula los margenes*/
+    box-sizing: border-box;
+    text-align: center;    /*pone al centro los textos*/
     font-family: "arial";
 }
+
+header{
+    display: flex;
+    background-color: #fafafa;
+    box-shadow: 0 3px 3px rgb(0 0 0 / 5%); /* para la imagen*/
+    height: 90px;
+    justify-content: space-between;
+    padding: 0 32px 0 32px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+}
+
+nav>ul{
+    display: flex;
+    padding: 0%;
+}
+
+nav li{
+    list-style: none; /*quita los puntos o guiones de los textos */
+    padding: 0 8px 0 8px;  /* corresponde d d d d espacio a 4 lados*/
+}
+
 h1{
     color: darkblue;
 }
 .primer-parrafo{
-    color: darkgoldenrod;
+    color: darkblue;
 }
 p{
-    color: yellowgreen;
+    color: chocolate;
 }
